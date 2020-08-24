@@ -40,9 +40,23 @@
         width: 70px;
     }
 
-    
+    /*-----------------main section --------------*/
+   main{
+       display: flex;
+       flex-direction: column;
+       align-items:center;
+   }
+  
    
-   
+
+    /*----------footer section ---------*/
+
+    .footer-menu{
+        display: flex;
+        justify-content: center;
+    }
+
+
    /*    
     .wrapper {
         display: grid;
