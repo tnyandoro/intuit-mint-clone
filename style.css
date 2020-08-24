@@ -6,11 +6,39 @@
     
     body{
         background-color: #ECEEF1;
+        font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
+
+    /*---------header----------*/
 
     header{
         display: flex;
         justify-content: flex-end;
+    }
+
+    .info{
+        font-size: 12px;
+        line-height: 1.5;
+        color: #505050;
+    }
+    .info-link{
+        text-decoration: none;
+        
+    }
+    .sign_in{
+        padding: 3px;
+    }
+    .sign-in-btn{
+        color: white;
+        cursor: pointer;
+        font-size: .8em;
+        font-weight: normal;
+        background-color: #0077C5;
+        border: none;
+        padding: 8px 15px 8px 15px;
+        border: 0.5px solid black;
+        border-radius: 2px;
+
     }
 
     /*-----------logos----------*/
@@ -18,11 +46,13 @@
     .main-logo{
         display: flex;
         justify-content: center;
+        margin-bottom: 15px;
     }
 
     .small-logos{
         display: flex;
         justify-content: center;
+        margin-bottom: 15px;
     }
 
     .main-logo-image{
