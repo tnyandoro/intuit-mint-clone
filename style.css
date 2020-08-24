@@ -1,3 +1,49 @@
+   *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+    }
+    
+    body{
+        background-color: #ECEEF1;
+    }
+
+    header{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*-----------logos----------*/
+   
+    .main-logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .small-logos{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-logo-image{
+        width: 118px;
+        height:35px
+    }
+   
+    .mint-logo{
+        width: 46px;
+    }
+    .turbotax-logo{
+        width: 60px;
+    }
+    .quickboks-logo{
+        width: 70px;
+    }
+
+    
+   
+   
+   /*    
     .wrapper {
         display: grid;
         grid-template-columns: 3fr 1fr 3fr;
