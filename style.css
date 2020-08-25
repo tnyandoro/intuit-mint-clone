@@ -1,247 +1,144 @@
-   *{
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-    }
-    
-    body{
-        background-color: #ECEEF1;
-        font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-
-    /*---------header----------*/
-
-    header{
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .info{
-        font-size: 12px;
-        line-height: 1.5;
-        color: #505050;
-    }
-    .info-link{
-        text-decoration: none;
-        
-    }
-    .sign_in{
-        padding: 3px;
-    }
-    .sign-in-btn{
-        color: white;
-        cursor: pointer;
-        font-size: .8em;
-        font-weight: normal;
-        background-color: #0077C5;
-        border: none;
-        padding: 8px 15px 8px 15px;
-        border: 0.5px solid black;
-        border-radius: 2px;
-
-    }
-
-    /*-----------logos----------*/
-   
-    .main-logo{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 15px;
-    }
-
-    .small-logos{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 15px;
-    }
-
-    .main-logo-image{
-        width: 118px;
-        height:35px
-    }
-   
-    .mint-logo{
-        width: 46px;
-    }
-    .turbotax-logo{
-        width: 60px;
-    }
-    .quickboks-logo{
-        width: 70px;
-    }
-
-    /*-----------------main section --------------*/
-   main{
-       width: 50%;
-       background-color: white;
-       margin: 0 auto;
-       border: 0.4px solid grey;
-       padding: 5px;
-   }
-   .common-color{
-    color: #4C4C4C;
-   }
-
-   .title{
-       font-weight:400;
-       line-height: 1.1;
-       text-align: center;
-       padding-bottom:20px;
-       padding-top:20px;
-   }
-   .description{
-       font-size: 14px;
-       text-align: center;
-       padding-bottom:15px;
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
        
-   }
-   .more-info{
-    text-decoration: none;
-    font-size: 11px;
-   }
-
-   .form-center{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-
-   }
-
-   .label-control{
-       font-size: 13px;
-       font-weight: 300;
-       color: rgba(64, 64, 64);
-       padding-right:50px;
-   }
-
-   .email-position{
-       padding-right:100px;
-   }
-   .password-position{
-       padding-right: 125px;
-   }
-
-
-
-  
-   
-
-    /*----------footer section ---------*/
-
-    .footer-menu{
-        display: flex;
-        justify-content: center;
-    }
-
-
-   /*    
-    .wrapper {
-        display: grid;
-        grid-template-columns: 3fr 1fr 3fr;
-        grid-gap: 1em;
-        grid-auto-rows: minmax(100px, auto);
-    }
-    
-    .wrapper>div {
-        background: #EEE;
-        padding: 1em;
-        margin: 1em;
-    }
-    
-    .wrapper>div:nth-child(even) {
-        background: #ddd;
-    }
-    /*
-img.logo {
-    width: 300px;
-    height: 150px;
-}
-
-p {
-    font-size: 12px;
-    text-align: center;
-}
-
-p.corner {
-    color: #000;
-    font-size: 14px;
-}
-
-p.user {
-    color: red;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-form {
-    display: flex;
-    flex-direction: row;
-    /* Center the form on the page *
-    margin: 0 auto;
-    padding-top: 50px;
-    width: 400px;
-    /* Form outline 
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-    text-align: center;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-form li+li {
-    margin-top: 1em;
-}
-
-label {
-    /* Uniform size & alignment *
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-}
-
-input,
-textarea {
-    /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font *
-    font: 1em sans-serif;
-    /* Uniform text field size *
-    width: 300px;
-    box-sizing: border-box;
-    /* Match form field borders *
-    border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-    /* Additional highlight for focused elements *
-    border-color: #000;
-}
-
-textarea {
-    /* Align multiline text fields with their labels *
-    vertical-align: top;
-    /* Provide space to type some text *
-    height: 5em;
-}
-
-.button {
-    /* Align buttons with the text fields *
-    padding-left: 90px;
-    /* same size as the label elements 
-
-
-}
-button {
-    /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields *
-    margin-left: .5em;
-}
+       body {
+           background-color: #ECEEF1;
+           font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+       }
+       /*---------header----------*/
+       
+       header {
+           display: flex;
+           justify-content: flex-end;
+       }
+       
+       .info {
+           font-size: 12px;
+           line-height: 1.5;
+           color: #505050;
+       }
+       
+       .info-link {
+           text-decoration: none;
+       }
+       
+       .sign_in {
+           padding: 3px;
+       }
+       
+       .sign-in-btn {
+           color: white;
+           cursor: pointer;
+           font-size: .8em;
+           font-weight: normal;
+           background-color: #0077C5;
+           border: none;
+           padding: 8px 15px 8px 15px;
+           border: 0.5px solid black;
+           border-radius: 2px;
+       }
+       /*-----------logos----------*/
+       
+       .main-logo {
+           display: flex;
+           justify-content: center;
+           margin-bottom: 15px;
+       }
+       
+       .small-logos {
+           display: flex;
+           justify-content: center;
+           margin-bottom: 15px;
+       }
+       
+       .main-logo-image {
+           width: 118px;
+           height: 35px
+       }
+       
+       .mint-logo {
+           width: 46px;
+       }
+       
+       .turbotax-logo {
+           width: 60px;
+       }
+       
+       .quickboks-logo {
+           width: 70px;
+       }
+       /*-----------------main section --------------*/
+       
+       main {
+           width: 50%;
+           background-color: white;
+           margin: 0 auto;
+           border: 0.4px solid grey;
+           padding: 5px;
+           max-height: 600px;
+       }
+       
+       .common-color {
+           color: #4C4C4C;
+       }
+       
+       .title {
+           font-weight: 400;
+           line-height: 1.1;
+           text-align: center;
+           padding-bottom: 20px;
+           padding-top: 20px;
+       }
+       
+       .input {
+           padding: 5px;
+           width: auto;
+       }
+       
+       .description {
+           font-size: 14px;
+           text-align: center;
+           padding-bottom: 15px;
+       }
+       
+       .more-info {
+           text-decoration: none;
+           font-size: 11px;
+       }
+       
+       .form-center {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+       }
+       
+       .label-control {
+           font-size: 13px;
+           font-weight: 300;
+           color: rgba(64, 64, 64);
+           padding-right: 50px;
+       }
+       
+       .email-position {
+           padding-right: 100px;
+       }
+       
+       .password-position {
+           padding-right: 125px;
+       }
+       
+       .fa-lock-open {
+           margin-left: -25px;
+           color: #8D9096;
+       }
+       
+       .create-button {
+           width: 200px;
+           background-color: #0077C5;
+       }
+       /* same size as the label elements 
+   /*----------footer section ---------*/
