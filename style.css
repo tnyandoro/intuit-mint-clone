@@ -1,208 +1,222 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: #eceef1;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+    background-color: #eceef1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 
 /*---------header----------*/
 
 header {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .info {
-  font-size: 12px;
-  line-height: 1.5;
-  color: #505050;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #505050;
 }
 
 .info-link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .sign_in {
-  padding: 3px;
+    padding: 3px;
 }
 
 .sign-in-btn {
-  color: white;
-  cursor: pointer;
-  font-size: 0.8em;
-  font-weight: normal;
-  background-color: #0077c5;
-  border: none;
-  padding: 8px 15px 8px 15px;
-  border: 0.5px solid black;
-  border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: normal;
+    background-color: #0077c5;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    border: 0.5px solid black;
+    border-radius: 2px;
 }
+
 
 /*-----------logos----------*/
 
 .main-logo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 .small-logos {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 .main-logo-image {
-  width: 118px;
-  height: 35px;
+    width: 118px;
+    height: 35px;
 }
 
 .mint-logo {
-  width: 46px;
+    width: 46px;
 }
 
 .turbotax-logo {
-  width: 60px;
+    width: 60px;
 }
 
 .quickboks-logo {
-  width: 70px;
+    width: 70px;
 }
+
 
 /*-----------------main section --------------*/
 
 main {
-  width: 50%;
-  margin: 0 auto;
-  background-color: white;
-  margin: 0 auto;
-  border: 0.4px solid grey;
-  padding: 1px;
-  max-height: 600px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    margin: 0 auto;
+    border: 0.4px solid grey;
+    padding: 1px;
+    max-height: 600px;
 }
 
 .form-center {
-  width: 100%;
-  position: relative;
+    width: 100%;
+    position: relative;
 }
+
 .input-width {
-  width: 80%;
+    width: 80%;
 }
 
 .center-input {
-  position: absolute;
-  left: 50px;
+    position: absolute;
+    left: 50px;
 }
 
 .label-control {
-  font-size: 13px;
-  font-weight: 300;
-  color: rgba(64, 64, 64);
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(64, 64, 64);
 }
 
 .common-color {
-  color: #4c4c4c;
+    color: #4c4c4c;
 }
 
 .title {
-  font-weight: 400;
-  line-height: 1.1;
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .description {
-  font-size: 12px;
-  text-align: center;
-  padding-bottom: 15px;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .more-info {
-  text-decoration: none;
-  font-size: 10px;
+    text-decoration: none;
+    font-size: 10px;
 }
 
 .fa-lock-open {
-  margin-left: -25px;
-  color: #8d9096;
+    margin-left: -25px;
+    color: #8d9096;
 }
 
 .create-button {
-  background-color: #0077c5;
-  color: #fff;
-  padding: 5px;
-  border: none;
-  border-radius: 2px;
-  position: relative;
+    background-color: #0077c5;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    margin-bottom: 1rem;
 }
 
 .create {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 /*----------footer section ---------*/
 
 .footer-menu {
-  display: inline;
-  margin: 30px;
-  background-color: aqua;
+    display: inline;
+    margin: 30px;
+    background-color: aqua;
 }
 
 ul li {
-  display: table;
-  text-align: center;
-  margin: auto;
+    display: table;
+    text-align: center;
+    margin: auto;
 }
 
 .copy-right {
-  font-size: x-small;
-  text-align: center;
+    font-size: x-small;
+    text-align: center;
 }
 
 .fa-lock {
-  position: absolute;
-  left: 70px;
+    position: absolute;
+    right: 10px;
 }
 
 em {
-  font-size: small;
-  text-align: center;
-  align-content: center;
-  align-items: center;
+    font-size: small;
+    text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
 .captcha-parent {
-  background-color: #eceef1;
-  padding: 15px;
+    background-color: #eceef1;
+    padding: 5px;
+    margin-top: 1.3rem;
 }
 
 p.captcha {
-  font-size: xx-small;
-  text-align: center;
-  padding: 5px;
+    font-size: xx-small;
+    text-align: center;
+    padding: 5px;
 }
 
-.footer-menu {
-  display: inline;
-  margin: 30px;
-  background-color: aqua;
+.footer-menu li {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-small;
 }
 
-ul li {
-  display: table;
-  text-align: center;
-  margin: auto;
+.footer-menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    text-align: center;
 }
 
 .copy-right {
-  font-size: x-small;
-  text-align: center;
+    font-size: x-small;
+    text-align: center;
 }
