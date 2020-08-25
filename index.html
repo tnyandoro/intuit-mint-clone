@@ -53,31 +53,28 @@
     </div>
     <main>
       <div class="title-description">
-        <h3 class="title">
+        <h3 class="title common-color">
           Create an Intuit account
         </h3>
-        <p class="description">
-          One account for everything Intuit, including Mint.
+        <p class="description common-color">
+          One account for everything Intuit, including Mint.<br>
           <a href="#" class="more-info">Learn more</a>
         </p>
       </div>
 
-      <form action="/my-handling-form-page" method="post">
-        <!--<p>Email address</p>-->
-        <label for="email">Email address</label> <br />
-        <input type="text" id="email" name="user_email" /><br /><br />
-        <!--<p>Phone (recommended):</p>-->
-        <label for="phone">Phone (recommended)</label> <br />
-        <input type="tel" id="phone" name="phone-number" /><br /><br />
-        <!--<p>Password</p>-->
-        <label for="password">Password</label> <br />
+      <form action="/" method="post" class="form-center">
+        <label class="label-control email-position" for="email">Email address</label> 
+        <input type="text" id="email" name="user_email" />
+        <label class="label-control" for="phone">Phone (recommended)</label>
+        <input type="tel" id="phone" name="phone-number" />
+        <label class="label-control password-position" for="password">Password</label>
         <input
           type="password"
           id="password"
           name="password"
           name="psw"
           required
-        /><span class="fas fa-lock-open"></span><br /><br />
+        /><span class="fas fa-lock-open"></span>
         <button type="submit"><i class="fas fa-lock">Create Account</i></button>
       </form>
       <div>
