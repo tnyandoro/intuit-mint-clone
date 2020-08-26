@@ -1,248 +1,246 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #eceef1;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #eceef1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
+/*----------common rules -------*/
+
+.common-color {
+  color: #4c4c4c;
+}
+
+.common-background {
+  background-color: #0077c5;
+}
+
+.parent-position {
+  position: relative;
+}
+
+.child-position {
+  position: absolute;
+}
+
+.flex-display {
+  display: flex;
+  justify-content: center;
+}
 
 /*---------header----------*/
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0 20px 0;
 }
 
 .info {
-    font-size: 8px;
-    line-height: 1.5;
-    color: #505050;
+  font-size: 8px;
+  line-height: 1.5;
+  color: #505050;
 }
 
 .info-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .sign-in-btn {
-    position: relative;
-    color: #fff;
-    cursor: pointer;
-    font-size: 0.5em;
-    font-weight: normal;
-    border: none;
-    padding: 5px 20px 5px 20px;
-    border: 0.5px solid #000;
-    border-radius: 2px;
-    margin: 0 10px 0 10px;
-    text-align: end;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.5em;
+  font-weight: normal;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  border: 0.5px solid #000;
+  border-radius: 2px;
+  margin: 0 10px 0 10px;
+  text-align: end;
 }
 
 .fa-unlock-alt {
-    position: absolute;
-    right: 50px;
+  right: 50px;
 }
-
 
 /*-----------logos----------*/
 
 .main-logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .small-logos {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .main-logo-image {
-    width: 90px;
-    height: 30px;
+  width: 90px;
+  height: 30px;
 }
 
 .mint-logo {
-    width: 46px;
+  width: 46px;
 }
 
 .turbotax-logo {
-    width: 60px;
+  width: 60px;
 }
 
 .quickboks-logo {
-    width: 70px;
+  width: 70px;
 }
-
 
 /*-----------------main section --------------*/
 
 main {
-    align-content: center;
-    width: 32%;
-    margin: auto;
-    background-color: #fff;
-    margin: 0 auto;
-    border: 0.4px solid #808080;
-    padding: 1px;
+  align-content: center;
+  width: 32%;
+  margin: auto;
+  background-color: #fff;
+  margin: 0 auto;
+  border: 0.4px solid #808080;
+  padding: 1px;
 }
 
 .form-center {
-    width: 100%;
-    height: auto;
-    margin-left: -11%;
+  width: 100%;
+  height: auto;
+  margin-left: -11%;
 }
 
 .input-width {
-    min-height: 30px;
-    width: 93%;
+  min-height: 30px;
+  width: 93%;
 }
 
 .form-input {
-    margin-left: 15%;
-    width: 100%;
+  margin-left: 15%;
+  width: 100%;
 }
 
 .form-input {
-    margin-left: 15%;
-    font-size: 12px;
+  margin-left: 15%;
+  font-size: 12px;
 }
 
 .label-control {
-    font-size: 13px;
-    font-weight: 300;
-    color: rgba(64, 64, 64);
-}
-
-.common-color {
-    color: #4c4c4c;
-}
-
-.common-background {
-    background-color: #0077c5;
+  font-size: 13px;
+  font-weight: 300;
+  color: rgba(64, 64, 64);
 }
 
 .title {
-    font-weight: 400;
-    line-height: 1.1;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .description {
-    font-size: 11px;
-    text-align: center;
-    padding-bottom: 15px;
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .more-info {
-    text-decoration: none;
-    font-size: 10px;
+  text-decoration: none;
+  font-size: 10px;
 }
 
 .centre-input {
-    height: 2.5em;
-}
-
-.password-form {
-    position: relative;
-    background-image: url("");
+  height: 2.5em;
 }
 
 .fa-lock-open {
-    position: absolute;
-    color: #8d9096;
-    right: 10%;
-    margin-top: 10px;
+  color: #8d9096;
+  right: 10%;
+  margin-top: 10px;
 }
 
 .create-button {
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 2px;
-    position: relative;
-    margin-bottom: 1rem;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 1rem;
 }
 
 .create {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 /*----------footer section ---------*/
 
 .footer-menu {
-    display: inline;
-    margin: 30px;
-    background-color: aqua;
+  display: inline;
+  margin: 30px;
+  background-color: aqua;
 }
 
 ul li {
-    display: table;
-    text-align: center;
-    margin: auto;
+  display: table;
+  text-align: center;
+  margin: auto;
 }
 
 .copy-right {
-    font-size: x-small;
-    text-align: center;
+  font-size: x-small;
+  text-align: center;
 }
 
 .fa-lock {
-    position: absolute;
-    left: 36%;
+  left: 20%;
 }
 
 em {
-    font-size: x-small;
-    text-align: center;
-    align-content: center;
-    align-items: center;
+  font-size: x-small;
+  text-align: center;
+  align-content: center;
+  align-items: center;
 }
 
 .captcha-parent {
-    background-color: #eceef1;
-    padding: 5px;
-    margin-top: 1.3rem;
+  background-color: #eceef1;
+  padding: 5px;
+  margin-top: 1.3rem;
 }
 
 p.captcha {
-    font-size: 8px;
-    text-align: center;
-    padding: 5px;
+  font-size: 8px;
+  text-align: center;
+  padding: 5px;
 }
 
 .footer-menu li {
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    font-size: x-small;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: x-small;
 }
 
 .footer-menu a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .footer-menu a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 ul {
-    text-align: center;
+  text-align: center;
 }
 
 .copy-right {
-    font-size: x-small;
-    text-align: center;
-    margin-bottom: 5%;
+  font-size: x-small;
+  text-align: center;
+  margin-bottom: 5%;
 }
