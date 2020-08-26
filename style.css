@@ -76,7 +76,8 @@ header {
 /*-----------------main section --------------*/
 
 main {
-    width: 25%;
+    align-content: center;
+    width: 20%;
     margin: auto;
     background-color: #fff;
     margin: 0 auto;
@@ -85,7 +86,7 @@ main {
 }
 
 .form-center {
-    width: 100%;
+    width: 93%;
     height: auto;
 }
 
