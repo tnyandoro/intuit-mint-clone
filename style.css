@@ -15,10 +15,11 @@ body {
 header {
     display: flex;
     justify-content: flex-end;
+    margin: 10px 0 20px 0;
 }
 
 .info {
-    font-size: 12px;
+    font-size: 8px;
     line-height: 1.5;
     color: #505050;
 }
@@ -27,20 +28,16 @@ header {
     text-decoration: none;
 }
 
-.sign_in {
-    padding: 3px;
-}
-
 .sign-in-btn {
-    color: white;
+    color: #fff;
     cursor: pointer;
-    font-size: 0.8em;
+    font-size: 0.5em;
     font-weight: normal;
-    background-color: #0077c5;
     border: none;
-    padding: 8px 15px 8px 15px;
-    border: 0.5px solid black;
+    padding: 5px 20px 5px 20px;
+    border: 0.5px solid #000;
     border-radius: 2px;
+    margin: 0 10px 0 10px;
 }
 
 
@@ -59,8 +56,8 @@ header {
 }
 
 .main-logo-image {
-    width: 118px;
-    height: 35px;
+    width: 90px;
+    height: 30px;
 }
 
 .mint-logo {
@@ -81,9 +78,9 @@ header {
 main {
     width: 25%;
     margin: auto;
-    background-color: white;
+    background-color: #fff;
     margin: 0 auto;
-    border: 0.4px solid grey;
+    border: 0.4px solid #808080;
     padding: 1px;
 }
 
@@ -99,6 +96,17 @@ main {
 
 .form-input {
     margin-left: 15%;
+    width: 100%;
+}
+
+.input-width {
+    width: 80%;
+}
+
+.form-input {
+    margin-left: 15%;
+    font-size: 12px;
+    background-color: orange;
 }
 
 .label-control {
@@ -109,6 +117,10 @@ main {
 
 .common-color {
     color: #4c4c4c;
+}
+
+.common-background {
+    background-color: #0077c5;
 }
 
 .title {
@@ -144,10 +156,12 @@ main {
     color: #8d9096;
     right: 22%;
     margin-top: 10px;
+    position: absolute;
+    color: #8d9096;
+    right: 22%;
 }
 
 .create-button {
-    background-color: #0077c5;
     color: #fff;
     padding: 10px;
     border: none;
