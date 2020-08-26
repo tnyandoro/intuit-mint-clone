@@ -89,16 +89,16 @@ main {
 
 .form-center {
     width: 100%;
+    height: auto;
 }
 
 .input-width {
+    min-height: 30px;
     width: 80%;
 }
 
 .form-input {
     margin-left: 15%;
-    font-size: 12px;
-    background-color: orange;
 }
 
 .label-control {
@@ -130,6 +130,10 @@ main {
     font-size: 10px;
 }
 
+.centre-input {
+    height: 2.5em;
+}
+
 .password-form {
     position: relative;
     background-image: url("");
@@ -139,6 +143,7 @@ main {
     position: absolute;
     color: #8d9096;
     right: 22%;
+    margin-top: 10px;
 }
 
 .create-button {
