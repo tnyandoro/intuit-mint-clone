@@ -171,40 +171,10 @@ main {
   margin-bottom: 1rem;
 }
 
-.create {
+.agreement {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-/*----------footer section ---------*/
-
-.footer-menu {
-  display: inline;
-  margin: 30px;
-  background-color: aqua;
-}
-
-ul li {
-  display: table;
-  text-align: center;
-  margin: auto;
-}
-
-.copy-right {
-  font-size: x-small;
-  text-align: center;
-}
-
-.fa-lock {
-  left: 25%;
-}
-
-em {
-  font-size: x-small;
-  text-align: center;
-  align-content: center;
-  align-items: center;
 }
 
 .captcha-parent {
@@ -217,6 +187,23 @@ p.captcha {
   font-size: 8px;
   text-align: center;
   padding: 5px;
+}
+
+em {
+  font-size: x-small;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.fa-lock {
+  left: 25%;
+}
+
+/*----------footer section ---------*/
+
+.footer-menu {
+  margin: 20px;
 }
 
 .footer-menu li {
@@ -233,6 +220,11 @@ p.captcha {
 
 .footer-menu a:hover {
   text-decoration: underline;
+}
+
+.copy-right {
+  font-size: x-small;
+  text-align: center;
 }
 
 ul {
