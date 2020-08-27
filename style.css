@@ -10,7 +10,7 @@ body {
 }
 
 
-/*----------common rules -------*/
+/* ------- common rules ------- */
 
 .common-color {
     color: #4c4c4c;
@@ -34,11 +34,11 @@ body {
 }
 
 .common-width {
-    width: 30px
+    width: 30px;
 }
 
 
-/*---------header----------*/
+/* ---------header---------- */
 
 header {
     display: flex;
@@ -61,7 +61,6 @@ header {
     cursor: pointer;
     font-size: 0.5em;
     font-weight: normal;
-    border: none;
     padding: 5px 20px 5px 20px;
     border: 0.5px solid #000;
     border-radius: 2px;
@@ -74,7 +73,7 @@ header {
 }
 
 
-/*-----------logos----------*/
+/* -----------logos---------- */
 
 .main-logo {
     margin-bottom: 15px;
@@ -101,12 +100,11 @@ header {
 }
 
 
-/*-----------------main section --------------*/
+/* -----------------main section -------------- */
 
 main {
     align-content: center;
     width: 32%;
-    margin: auto;
     background-color: #fff;
     margin: 0 auto;
     border: 0.4px solid #808080;
@@ -127,10 +125,6 @@ main {
 .form-input {
     margin-left: 15%;
     width: 100%;
-}
-
-.form-input {
-    margin-left: 15%;
     font-size: 12px;
 }
 
@@ -207,7 +201,7 @@ em {
 }
 
 
-/*----------footer section ---------*/
+/* ----------footer section --------- */
 
 .footer-menu {
     margin: 20px;
@@ -227,11 +221,6 @@ em {
 
 .footer-menu a:hover {
     text-decoration: underline;
-}
-
-.copy-right {
-    font-size: x-small;
-    text-align: center;
 }
 
 ul {
