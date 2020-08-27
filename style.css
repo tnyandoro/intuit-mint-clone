@@ -105,6 +105,7 @@ main {
   margin: 0 auto;
   border: 0.4px solid #808080;
   padding: 1px;
+  height: auto;
 }
 
 .form-center {
