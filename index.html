@@ -1,156 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/fddcccfd38.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/fddcccfd38.js" crossorigin="anonymous"></script>
     <title>Intuit_form_clone</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="credentials">
-        <p class="info">Already have an Intuit account?</p>
-        <p class="info">
-          <a class="info-link" href="#">I forgot my User ID or Password</a>
-        </p>
-      </div>
-      <div class="sign_in">
-        <button
-          type="submit"
-          class="sign-in-btn common-background parent-position"
-        >
-          <i class="fas fa-unlock-alt child-position"></i>
-          Sign in
-        </button>
-      </div>
+        <div class="credentials">
+            <p class="info">Already have an Intuit account?</p>
+            <p class="info">
+                <a class="info-link" href="#">I forgot my User ID or Password</a>
+            </p>
+        </div>
+        <div class="sign_in">
+            <button type="submit" class="sign-in-btn common-background parent-position">
+        <i class="fas fa-unlock-alt child-position"></i>
+        Sign in
+      </button>
+        </div>
     </header>
     <div class="main-logo flex-display">
-      <a href="#"
-        ><img class="main-logo-image" src="images/intuit_logo.png" alt="Intuit"
-      /></a>
+        <a href="#"><img class="main-logo-image" src="images/intuit_logo.png" alt="Intuit" /></a>
     </div>
     <div class="small-logos flex-display">
-      <div>
-        <a href="#"
-          ><img class="mint-logo" src="images/mint_logo.png" alt="mint"
-        /></a>
-      </div>
-      <div>
-        <a href="#"
-          ><img
-            class="quickboks-logo"
-            src="images/quickbooks_logo.png"
-            alt="quickboks"
-        /></a>
-      </div>
-      <div>
-        <a href="#"
-          ><img
-            class="turbotax-logo"
-            src="images/turbotax_logo.png"
-            alt="turbotax"
-        /></a>
-      </div>
+        <div>
+            <img class="mint-logo" src="images/mint_logo.png" alt="mint" /><a href="#" class="text-logo">mint</a>
+        </div>
+        <div>
+            <img class="quickboks-logo" src="images/quickbooks_logo.png" alt="quickbooks" />
+            <a href="#" class="text-logo">quickbooks</a>
+        </div>
+        <div>
+            <img class="turbotax-logo" src="images/turbotax_logo.png" alt="turbotax" /><a href="#" class="text-logo">turbotax</a>
+        </div>
     </div>
     <main>
-      <div class="title-description">
-        <h3 class="title common-color">Create an Intuit account</h3>
-        <p class="description common-color">
-          One account for everything Intuit, including Mint.<br />
-          <a href="#" class="more-info">Learn more</a>
-        </p>
-      </div>
+        <div class="title-description">
+            <h3 class="title common-color">Create an Intuit account</h3>
+            <p class="description common-color">
+                One account for everything Intuit, including Mint.<br />
+                <a href="#" class="more-info">Learn more</a>
+            </p>
+        </div>
 
-      <form action="/" method="post" class="form-center">
-        <div class="form-input">
-          <label class="label-control center-input" for="email"
-            >Email address</label
-          ><br />
-          <input
-            class="input-width center-input"
-            type="text"
-            id="email"
-            name="user_email"
-          /><br /><br />
-        </div>
-        <div class="form-input">
-          <label class="label-control center-input" for="phone"
-            >Phone (recommended)</label
-          ><br />
-          <input
-            class="input-width center-input"
-            type="tel"
-            id="phone"
-            name="phone-number"
-          /><br /><br />
-        </div>
-        <div class="form-input password-form parent-position">
-          <label class="label-control center-input" for="password"
-            >Password</label
-          ><br />
-          <input
-            class="input-width center-input"
-            type="password"
-            id="password"
-            name="password"
-            required
-          /><i class="fas fa-lock-open child-position"></i><br /><br />
-        </div>
-        <div class="form-input">
-          <button
-            class="input-width create-button center-input common-background parent-position"
-            type="submit"
-          >
-            <i class="fas fa-lock bottom-fa-lock child-position"></i>Create
-            Account</button
-          ><br />
-        </div>
-      </form>
+        <form action="/" method="post" class="form-center">
+            <div class="form-input">
+                <label class="label-control center-input" for="email">Email address</label><br />
+                <input class="input-width center-input" type="text" id="email" name="user_email" /><br /><br />
+            </div>
+            <div class="form-input">
+                <label class="label-control center-input" for="phone">Phone (recommended)</label><br />
+                <input class="input-width center-input" type="tel" id="phone" name="phone-number" /><br /><br />
+            </div>
+            <div class="form-input password-form parent-position">
+                <label class="label-control center-input" for="password">Password</label><br />
+                <input class="input-width center-input" type="password" id="password" name="password" required /><i class="fas fa-lock-open child-position"></i><br /><br />
+            </div>
+            <div class="form-input">
+                <button class="input-width create-button center-input common-background parent-position" type="submit">
+          <i class="fas fa-lock bottom-fa-lock child-position"></i>Create
+          Account</button><br />
+            </div>
+        </form>
 
-      <div class="agreement">
-        <em>
-          By clicking Create account, you agree to our <br />
-          <a href="#">Terms</a> and have read and acknowledge our
-          <a href="#"
-            >Privacy <br />
-            Statement</a
-          >
-        </em>
-      </div>
-      <div class="captcha-parent">
-        <p class="captcha">
-          Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
-          <a href="#">Terms of Use</a>.
-        </p>
-      </div>
+        <div class="agreement">
+            <em>
+        By clicking Create account, you agree to our <br />
+        <a href="#">Terms</a> and have read and acknowledge our
+        <a href="#">Privacy <br />
+          Statement</a>
+      </em>
+        </div>
+        <div class="captcha-parent">
+            <p class="captcha">
+                Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+                <a href="#">Terms of Use</a>.
+            </p>
+        </div>
     </main>
     <footer>
-      <div class="footer-menu">
-        <ul>
-          <li><a href="#">Legal</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Security</a></li>
-        </ul>
-      </div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </div>
 
-      <div class="copy-right">
-        <p>
-          &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
-          TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-          <br />
-          Terms and conditions, features, support, pricing, and service options
-          subject to change without notice.
-        </p>
-      </div>
+        <div class="copy-right">
+            <p>
+                &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+                <br /> Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </p>
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
