@@ -8,6 +8,7 @@ body {
   background-color: #eceef1;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 /* ------- common rules ------- */
 .common-color {
   color: #4c4c4c;
@@ -33,6 +34,7 @@ body {
 .common-width {
   width: 30px;
 }
+
 /* ---------header---------- */
 header {
   display: flex;
@@ -65,6 +67,7 @@ header {
 .fa-unlock-alt {
   right: 50px;
 }
+
 /* -----------logos---------- */
 .main-logo {
   margin-bottom: 15px;
@@ -89,6 +92,7 @@ header {
   text-decoration: none;
   font-size: 12px;
 }
+
 /* -----------------main section -------------- */
 main {
   align-content: center;
@@ -187,6 +191,7 @@ em {
 .fa-lock {
   left: 25%;
 }
+
 /* ----------footer section --------- */
 .footer-menu {
   margin: 20px;
