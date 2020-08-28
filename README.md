@@ -16,7 +16,7 @@ The goal for this project is to create a form that resembles the mint.com form. 
 * Fireworks
 
 ## Live Demo
-Please [click here](https://raw.githack.com/tnyandoro/intuit-mint-clone/form-collaboration/index.html) to access the live demo.
+Please [click here](https://raw.githack.com/tnyandoro/intuit-mint-clone/master/index.html) to access the live demo.
 
 ## Prerequisites
 You need a browers that support HTML5, css3 and flexbox. You can click on the live Demo to view our website.
