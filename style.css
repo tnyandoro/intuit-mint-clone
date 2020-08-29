@@ -6,7 +6,13 @@
 
 body {
   background-color: #eceef1;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 
+  "AvenirNext", 
+   Avenir, 
+   "Helvetica Neue",
+   Helvetica, 
+   Arial,
+   sans-serif;
 }
 
 /* ------- common rules ------- */
@@ -43,7 +49,7 @@ header {
 }
 
 .info {
-  font-size: 8px;
+  font-size: 10px;
   line-height: 1.5;
   color: #505050;
 }
@@ -55,9 +61,9 @@ header {
 .sign-in-btn {
   color: #fff;
   cursor: pointer;
-  font-size: 0.5em;
+  font-size: 0.9em;
   font-weight: normal;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 20px 5px 30px;
   border: 0.5px solid #000;
   border-radius: 2px;
   margin: 0 10px 0 10px;
@@ -65,7 +71,7 @@ header {
 }
 
 .fa-unlock-alt {
-  right: 50px;
+  right: 70px;
 }
 
 /* -----------logos---------- */
@@ -96,7 +102,7 @@ header {
 /* -----------------main section -------------- */
 main {
   align-content: center;
-  width: 32%;
+  width: 25%;
   background-color: #fff;
   margin: 0 auto;
   border: 0.4px solid #808080;
@@ -189,7 +195,7 @@ em {
 }
 
 .fa-lock {
-  left: 25%;
+  left: 27%;
 }
 
 /* ----------footer section --------- */
@@ -221,4 +227,3 @@ ul {
   font-size: x-small;
   text-align: center;
   margin-bottom: 5%;
-}
